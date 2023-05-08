@@ -1,0 +1,45 @@
+@import url(reset.css);
+
+:root {
+  --app-bg: #f2f3f4;
+  --app-bg-blue: #3487f3;
+  --app-bg-orange: #d47215;
+  --app-bg-purple: #6a1fc0;
+  --app-bg-dark: #1c1c1c;
+  --app-header-bg: #282a31;
+  --app-bg-green: #4dcc3c;
+  --app-blue-hover: #4896fc;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-text: #e0d9d9;
+  --app-border: #2c2c2c;
+}
+
+body {
+  background-color: var(--app-bg-dark);
+  overflow-x: hidden;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: min(100% - 30px, 1280px);
+  margin-inline: auto;
+  height: 100vh;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/* Header                                        */
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+
